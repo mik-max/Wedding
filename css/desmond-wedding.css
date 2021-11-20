@@ -248,7 +248,7 @@ html{
         background-color: rgb(63, 63, 63);
         padding-top: 20vh;
         position: fixed;
-        top: 20%;
+        top: 9%;
         z-index: -1;
    }
     .giftRegistryText h3 {
@@ -256,6 +256,9 @@ html{
    }
    .infoDiv{
         background-color: plum;
+   }
+   .comments{
+        justify-content: center;
    }
   /* The Modal (background) */
  #imgModal {
