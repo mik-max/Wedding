@@ -1,0 +1,437 @@
+*{
+     box-sizing: border-box;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: #393c41;
+    
+    
+}
+html{
+     scroll-behavior: smooth;
+}
+
+
+.navbar{
+     background-color: #F6EFEB;
+}
+.page-nav{
+     margin-left: 20%;
+    justify-content: space-around;
+}
+ .page-nav a{
+     color: purple;
+     text-transform: uppercase;
+     font-weight: 600;
+}
+.page-nav a:hover{
+     text-decoration: none;
+     border-bottom: 1.5px solid purple;
+}
+.jumbotron-section{
+     height: 100vh;
+     background-image: url('../images/photo1637335287\ \(2\).jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     object-fit: cover;
+     background-color: rgb(122, 63, 122);
+     background-blend-mode: soft-light;
+    
+}
+.jumbo-text{
+     color: white;
+     text-align: center;
+     font-size: 90px;
+     margin-top: 20vh;
+}
+.jumbotron-section h6{
+     color: white;
+     text-align: center;
+}
+.accordionBackground, .accordionButton{
+    
+     color: white;
+}
+.nav-tabs a:hover{
+     background-color: #F6EFEB;
+    
+}
+.nav-link, .nav-link:hover{
+     color: plum;
+}
+
+.ourStorySection{
+     padding-top: 12px;
+     
+     justify-content: center;
+
+}
+.ourStorySection h1 ,.detailsHeader,.crewHeader, .giftRegistryText h1, .wishies h1{
+     text-align: center;
+     font-size: 100px;
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(240, 232, 240);
+}
+.tabContent{
+     background-color: #F6EFEB;
+}
+.story-text{
+     padding: 20px;
+     
+}
+.weddingDetails{
+     display: block;
+     justify-content: center;
+}
+.weddingDetailsCard{
+     width: 300px;
+     height: auto;
+     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.weddingDetailsCard h3{
+     padding: 3px;
+}
+.cardImage{
+     width: 100%;
+     height: 300px;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+.cardHeader{
+     text-align: center;
+}
+.gift-btn {
+     background-color: plum;
+     color: white;
+     height: 60px;
+}
+.gift-btn:hover{
+     background-color: none;
+}
+.infoText{
+     font-size: 16px;
+     font-weight: 800;
+
+}
+.infoSmallText{
+     font-size: 12px;
+}
+
+/*** Gallery Style ***/
+#gallery-cont{
+     background-image: url("../images/photo1637335287\ \(1\).jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-blend-mode:overlay;
+     background-color: #F6EFEB; /*rgba(202, 217, 250, 0.938) rgba(1, 27, 75, 0.938)*/
+}
+.gallery-item img{
+     max-width: 100%;
+     height: auto;
+     /* border-radius: 5px 5px 5px 5px; */
+     transition: transform .3s ease-in-out,  filter .5s;
+     
+     transform: scale(1.0);
+ }
+ .tiles .tile:hover img{
+     transform: scale(1.02);
+     /* filter:blur(1px) */
+ }
+ .gallery{
+     margin: 0 0rem;
+ }
+ .gallery-item{
+     height: auto;
+     margin: 0rem;
+ }
+ .gallery-item img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .tiles {
+    
+     font-size: 0;
+     text-align: center;
+     /* position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); */
+   }
+   .tiles .tile {
+     /* display: inline-block; */
+     /* margin: 10px;*/
+     text-align: left; 
+     opacity: 0.99;
+     overflow: hidden;
+     position: relative;
+     /* border-radius: 3px; */
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+   }
+   .tiles .tile:before {
+     content: "";
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+     width: 100%;
+     height: 50%;
+     opacity: 0;
+     position: absolute;
+     top: 100%;
+     left: 0; 
+     z-index: 2; 
+     transition-property: top, opacity;
+     transition-duration: 0.3s;
+   }
+   .tiles .tile img {
+     display: block;
+     max-width: 100%;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+   }
+   .tiles .tile .details {
+     font-size: 18px;
+     padding: 20px;
+     color: #fff;
+     position: absolute;
+     bottom: 10%;
+     left: 0;
+     z-index: 3;
+   }
+   .tiles .tile .details span {
+     display: block;
+     opacity: 0;
+     position: relative;
+     top: 100px;
+     transition-property: top, opacity;
+     transition-duration: 0.3s;
+     transition-delay: 0s;
+   }
+   .tiles .tile .details .title {
+     line-height: 1;
+     font-weight: 600;
+     font-size: 18px;
+   }
+   .tiles .tile .details .info {
+     line-height: 1.2;
+     margin-top: 5px;
+     font-size: 12px;
+   }
+   .tiles .tile:focus:before,
+   .tiles .tile:focus span, .tiles .tile:hover:before,
+   .tiles .tile:hover span {
+     opacity: 1;
+   }
+   .tiles .tile:focus:before, .tiles .tile:hover:before {
+     top: 50%;
+   }
+   .tiles .tile:focus span, .tiles .tile:hover span {
+     top: 0;
+   }
+   .tiles .tile:focus .title, .tiles .tile:hover .title {
+     transition-delay: 0.15s;
+   }
+   .tiles .tile:focus .info, .tiles .tile:hover .info {
+     transition-delay: 0.25s;
+   }
+   .crewCard{
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .crewSection{
+        background-color: white;
+   }
+   .giftRegistryBackGround{
+        height: 100%;
+        background-image: url('../images/photo1637335287\ \(3\)crop.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: rgb(63, 63, 63);
+        padding-top: 20vh;
+        position: fixed;
+        top: 20%;
+        z-index: -1;
+   }
+    .giftRegistryText h3 {
+        color: #F6EFEB;
+   }
+   .infoDiv{
+        background-color: plum;
+   }
+  /* The Modal (background) */
+ #imgModal {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */ 
+ }
+   
+ @keyframes zoom {
+     from {transform:scale(0)}
+     to {transform:scale(1)}
+ }
+ /* Modal Content (Image) */
+ .img-modal-content {
+     margin: auto;
+     display: block;
+     width: 80%;
+     max-width: 700px;
+ }
+ 
+ /* Caption of Modal Image (Image Text) - Same Width as the Image */
+ #caption {
+     margin: auto;
+     display: block;
+     width: 80%;
+     max-width: 700px;
+     text-align: center;
+     color: #ccc;
+     padding: 10px 0;
+     height: 150px;
+ }
+ .modal-content, #caption {
+     animation-name: zoom;
+     animation-duration: 0.6s;
+ }
+ .img-close{
+     color: white;
+     font-size: 40px;
+     cursor: pointer;
+     margin-left: 30px;
+     font-weight: bold;
+     transition: 0.3s;
+ }
+ .info{
+     color: plum;
+ }
+ 
+   
+   /*   */
+   
+   /* 100% Image Width on Smaller Screens */
+   @media only screen and (max-width: 640px){
+     .modal-content {
+       width: 100%;
+ 
+     }
+     .gallery{
+         overflow-y: scroll;
+         height: 80vh;
+     }
+   }
+   
+ @media (min-width: 640px){
+     .gallery{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: repeat(5, 300px);
+         grid-auto-flow:row dense;
+     }
+     .gallery-item{
+         margin: 0rem;
+     }
+     .gallery-item:first-child{
+         grid-row: span 1;
+     }
+     .gallery-item:nth-child(2){
+         grid-column: 2 / 3;
+         grid-row: span 2;
+     }
+     .gallery-item:nth-child(6){
+         grid-row: span 2;
+     }
+      
+     
+ }
+ @media (min-width: 960px){
+     .gallery{
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-template-rows: repeat(3, 300px); /* I replaced auto-flow with 300px here ONLY*/
+     }
+     .gallery-item:first-child{
+         grid-column: span 2;
+         grid-row: span 1;
+     }
+     .gallery-item:nth-child(2){
+         grid-column: span 2;
+         grid-row: span 2;
+     }
+ }
+ 
+ 
+
+/*** End of Gallery style ***/
+
+@media only screen and (max-width: 1000px){
+     .page-nav{
+          margin-left: 0%;
+         justify-content: space-around;
+     }
+     page-nav a{
+          font-size: 16px;
+     }
+}
+@media only screen and (max-width: 800px){
+     .page-nav a{
+          font-size: 13px;
+     }
+}
+@media only screen and (max-width: 768px){
+     .page-nav a:hover{
+          text-decoration: none;
+          border-bottom: none;
+     }
+}
+@media only screen and (max-width: 500px){
+     .jumbo-text{
+          font-size: 30px;
+     }
+   
+     .ourStorySection h1 , .detailsHeader{
+          font-size: 30px;
+     }
+     .weddingDetailsCard h3{
+         font-size: 20px;
+     }
+     .weddingDetailsCard p{
+          font-size: 10px;
+     }
+     .cardImage{
+          height: 200px;
+     }
+}
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+     .jumbotron-section{
+          height: 50vh;
+     }
+     .jumbo-text, .giftRegistryText h1{
+          font-size: 30px;
+     }
+    
+     .ourStorySection h1 ,.weddingDetails h1, .crewHeader{
+          font-size: 30px;
+     }
+     .weddingDetailsCard h3, .cardHeader{
+          font-size: 20px;
+      }
+      .weddingDetailsCard p, .giftRegistryText h3{
+          font-size: 10px;
+      }
+     .cardImage{
+          height: 200px;
+          padding-left: 5%;
+          padding-right: 5%;
+     }
+     .crewCard h3{
+          font-size: 20px;
+     }
+
+}
