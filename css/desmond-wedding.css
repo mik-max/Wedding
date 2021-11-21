@@ -2,7 +2,6 @@
      box-sizing: border-box;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      color: #393c41;
-    
 }
 html{
      scroll-behavior: smooth;
@@ -67,8 +66,13 @@ html{
 .ourStorySection h1 ,.detailsHeader,.crewHeader, .giftRegistryText h1, .wishies h1{
      text-align: center;
      font-size: 100px;
-     font-family: 'Times New Roman', Times, serif;
+     font-family: h1fonts;
      color: rgb(240, 232, 240);
+}
+.memory-header{
+     font-family: h1fonts;
+     color: rgb(240, 232, 240); 
+     font-size: 30px;
 }
 .tabContent{
      background-color: #F6EFEB;
@@ -102,7 +106,7 @@ html{
 .gift-btn {
      background-color: plum;
      color: white;
-     height: 60px;
+     padding: 10px;
 }
 .gift-btn:hover{
      background-color: transparent;
@@ -250,7 +254,7 @@ html{
         background-blend-mode: soft-light;
         background-color: rgb(63, 63, 63);
         position: fixed;
-        top: 9%;
+        top: 0%;
         z-index: -1;
    }
     .giftRegistryText h3 {
@@ -318,6 +322,11 @@ html{
  
    
    /*   */
+   /*fonts*/
+   @font-face {
+        font-family: h1fonts;
+        src: url('../fonts/GreatVibes-Regular.ttf');
+   }
    
    /* 100% Image Width on Smaller Screens */
    @media only screen and (max-width: 640px){
