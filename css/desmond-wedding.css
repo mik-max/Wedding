@@ -3,7 +3,6 @@
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      color: #393c41;
     
-    
 }
 html{
      scroll-behavior: smooth;
@@ -106,7 +105,9 @@ html{
      height: 60px;
 }
 .gift-btn:hover{
-     background-color: none;
+     background-color: transparent;
+     border: 1px solid plum;
+     color: plum;
 }
 .infoText{
      font-size: 16px;
@@ -241,12 +242,13 @@ html{
    }
    .giftRegistryBackGround{
         height: 100%;
+        width: 100%;
         background-image: url('../images/photo1637335287\ \(3\)crop.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         background-blend-mode: soft-light;
         background-color: rgb(63, 63, 63);
-        padding-top: 20vh;
         position: fixed;
         top: 9%;
         z-index: -1;
@@ -419,9 +421,10 @@ html{
           font-size: 30px;
      }
     
-     .ourStorySection h1 ,.weddingDetails h1, .crewHeader{
+     .ourStorySection h1 ,.weddingDetails h1, .crewHeader, .wishies h1{
           font-size: 30px;
      }
+     
      .weddingDetailsCard h3, .cardHeader{
           font-size: 20px;
       }
