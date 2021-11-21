@@ -73,6 +73,7 @@ html{
      font-family: h1fonts;
      color: rgb(240, 232, 240); 
      font-size: 30px;
+     font-weight: 600;
 }
 .tabContent{
      background-color: #F6EFEB;
