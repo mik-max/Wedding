@@ -114,6 +114,17 @@ html{
      border: 1px solid plum;
      color: plum;
 }
+.crypto-btn{
+     background-color: transparent;
+     border: 1px solid plum;
+     color: plum;
+     padding: 10px;
+}
+.crypto-btn:hover{
+     background-color: plum;
+     color: white;
+     border: none;
+}
 .infoText{
      font-size: 16px;
      font-weight: 800;
