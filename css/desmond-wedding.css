@@ -154,11 +154,10 @@ html{
 }
 .modal-title-header{
      height: 40px;
-     padding-top: 1px;
+     padding-top: 2px;
 }
 .close{
      border: none;
-     margin-top: 2px;
 }
 /*** Gallery Style ***/
 #gallery-cont{
