@@ -134,6 +134,14 @@ html{
      font-size: 12px;
 }
 
+/**Modal Style**/
+.modal-header-background{
+     background-color: plum;
+}
+.location-text{
+     font-size: small;
+}
+
 /*** Gallery Style ***/
 #gallery-cont{
      background-image: url("../images/photo1637335287\ \(1\).jpeg");
