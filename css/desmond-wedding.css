@@ -158,6 +158,7 @@ html{
 }
 .close{
      border: none;
+     margin-top: 2px;
 }
 /*** Gallery Style ***/
 #gallery-cont{
