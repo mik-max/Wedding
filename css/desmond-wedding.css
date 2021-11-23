@@ -35,6 +35,20 @@ html{
      background-blend-mode: soft-light;
     
 }
+
+.collapse-link{
+     color: plum;
+     font-size: 20px;
+  
+}
+.collapse-link:hover{
+     color: plum;
+     text-decoration: none;
+}
+li{
+     list-style-type: none;
+     line-height: 30px;
+}
 .jumbo-text{
      color: white;
      text-align: center;
@@ -114,6 +128,13 @@ html{
      border: 1px solid plum;
      color: plum;
 }
+.gift{
+     color: white;
+}
+.gift-btn:hover .gift{
+     color: plum;
+}
+
 .crypto-btn{
      background-color: transparent;
      border: 1px solid plum;
@@ -125,21 +146,37 @@ html{
      color: white;
      border: none;
 }
+.plane{
+     color: plum;
+}
+.crypto-btn:hover .plane{
+     color: white;
+}
 .live-btn {
      background-color: white;
      color: plum;
      padding: 10px;
 }
 .live-btn:hover{
-    padding: 12px;
-    background-color: rgb(221, 221, 221);
+    background-color: plum;
     color: white;
-    border: none;
 }
+.eye{
+     color: plum;
+}
+.live-btn:hover .eye{
+     color: white;
+}
+.location{
+     color: white;
+}
+.gift-btn:hover .location{
+     color: plum;
+}
+
 .infoText{
      font-size: 16px;
      font-weight: 800;
-
 }
 .infoSmallText{
      font-size: 12px;

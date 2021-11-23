@@ -109,7 +109,7 @@
                                      <div class="cardText">
                                           <P>26th November, 2021. 10am prompt.</P>
                                      </div>
-                                     <button data-toggle="modal" data-target="#churchLocation" class="btn gift-btn shadow-none">Get Location</button>
+                                     <button data-toggle="modal" data-target="#churchLocation" class="btn gift-btn shadow-none"><i class="fa fa-location-arrow location" aria-hidden="true"></i> Get Location</button>
                                 </div> 
                               </div>
                          </div>
@@ -121,7 +121,7 @@
                                    <div class="cardText">
                                         <P>27th November, 2021. 10am.</P>
                                    </div>
-                                   <button data-toggle="modal" data-target="#traditionalLocation"  class="btn gift-btn shadow-none">Get Location</button>
+                                   <button data-toggle="modal" data-target="#traditionalLocation"  class="btn gift-btn shadow-none"> <i class="fa fa-location-arrow location" aria-hidden="true"></i> Get Location</button>
                               </div>  
                             </div>
                         </div>
@@ -133,7 +133,9 @@
                                    <div class="cardText">
                                         <P>27th November, 2021.</P>
                                    </div>
-                                   <button data-toggle="modal" data-target="#receptionLocation"  class="btn gift-btn shadow-none">Get Location</button>
+                                   <button data-toggle="modal" data-target="#receptionLocation"  class="btn gift-btn shadow-none">
+                                        <i class="fa fa-location-arrow location" aria-hidden="true"></i> Get Location
+                                   </button>
                               </div>
                             </div>
                         </div>
@@ -144,8 +146,8 @@
 
                                    <!--modal-header-->
                                    <div class="modal-header modal-header-background text-center">
-                                        <div class="modal-title">
-                                             <h4>Church Wedding Location</h4>
+                                        <div class="modal-title text-white">
+                                             <h4 class="text-white">Church Wedding Location</h4>
                                         </div>
                                    </div>
 
@@ -174,8 +176,8 @@
 
                                    <!--modal-header-->
                                    <div class="modal-header modal-header-background text-center">
-                                        <div class="modal-title">
-                                             <h4>Traditional Wedding Location</h4>
+                                        <div class="modal-title text-white">
+                                             <h4 class="text-white">Traditional Wedding Location</h4>
                                         </div>
                                    </div>
 
@@ -203,8 +205,8 @@
 
                                    <!--modal-header-->
                                    <div class="modal-header modal-header-background text-center">
-                                        <div class="modal-title">
-                                             <h4>Reception Location</h4>
+                                        <div class="modal-title text-white">
+                                             <h4 class="text-white">Reception Location</h4>
                                         </div>
                                    </div>
 
@@ -249,7 +251,7 @@
                         <div class="details"><span class="title text-white">Mary & Desmond</span><span class="info"> A blessed union.</span></div>
                     </div>
                     <div class="gallery-item tile">
-                        <img src="images/photo1637335287 (4).jpeg" alt="" class="gallery-image">
+                        <img src="images/photo1637335287 (9).jpeg" alt="" class="gallery-image">
                         <div class="details"><span class="title text-white">Mary & Desmond</span><span class="info"> A blessed union</span></div>
                     </div>
                     <div class="gallery-item tile">
@@ -257,7 +259,7 @@
                         <div class="details"><span class="title text-white">Mary & Desmond</span><span class="info"> A blessed union.</span></div>
                     </div>
                     <div class="gallery-item tile">
-                        <img src="images/photo1637335287 (6).jpeg" alt="" class="gallery-image">
+                        <img src="images/photo1637335287 (1).jpeg" alt="" class="gallery-image">
                         <div class="details"><span class="title text-white">Mary & Desmond</span><span class="info"> A blessed union.</span></div>
                     </div>
                     <div class="gallery-item tile">
@@ -354,25 +356,68 @@
                     <h1>Gift Registry</h1>
                     <h3>WE APPRECIATE YOUR LOVE, PRESENCE AND SUPPORT</h3>
                     <br>
-                    <a href="https://iludio.com/registry/made21-2/" target="_blank" class="btn gift-btn shadow-none">BUY US A GIFT </a>
-                    <a href="#sendCrypto" data-toggle="modal"  class="btn crypto-btn shadow-none">SEND CRYPTO</a>
+                    
+                    <button class="btn gift-btn shadow-none" data-toggle="modal" data-target="#buyGift"><span><i class="fa fa-gift gift" aria-hidden="true"></i></span> BUY US A GIFT </button>
+                    <a href="#" data-toggle="modal" data-target="#sendCrypto" class="btn crypto-btn shadow-none"> <span><i class="fa fa-paper-plane plane" aria-hidden="true"></i></span> SEND CRYPTO</a>
                </div> 
+               <div class="modal fade" id="buyGift">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                         <div class="modal-content">
+
+                              <!--modal-header-->
+
+                              <div class="modal-header modal-header-background text-center modal-title-header">
+                                   <h4 class="modal-title text-white">Wedding Gifts</h4>
+                                   <a type="button" class="btn close text-white" data-dismiss="modal">&times;</a>
+                              </div>
+
+                              <!--modal-body-->
+                              <div class="modal-body ">
+                                   <div id="accordion" >
+                                       
+                                        <div class="card mb-2">
+                                             <div class="card-header" data-toggle="collapse" data-target="#collapseTwo">
+                                                  <a class=" collapse-link collapse-title collapsed text-center" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                       Help Strike Out A List Item
+                                                  </a>
+                                             </div>
+                                             <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                                  <div class="text-center">
+                                                       <ul class="">
+                                                            <li>Cow @ NGN <b><em>250,000.00</em></b></li>
+                                                            <li>Cocktail @ NGN <b><em>150,000.00</em></b></li>
+                                                            <li>Extra Drinks @ NGN <b><em>120,000.00</em></b></li>
+                                                            <li>Special Gift Items @ NGN <b><em>180,000.00</em></b></li>
+                                                            <li>Small Chops @ NGN <b><em>50,000.00</em></b></li>
+                                                       </ul>
+                                                  </div>
+                                                  <p class="text-center">Kindly send your supports to the account below.</p>
+                                                  <p class="text-center">(2041191019) UBA,  (2189505165) Zenith</p>
+                                             </div>
+                                        </div>
+                                      
+                                   </div>
+                                   
+                                   
+                                   <hr>
+                                   <div class="text-center">
+                                        <h3 class="text-center">Buy Us A Gift On Online</h3>
+                                        <a href="https://iludio.com/registry/made21-2/" target="_blank" class="btn gift-btn shadow-none"> <span><i class="fa fa-hand-o-right gift" aria-hidden="true"></i></span> BUY NOW</a>
+                                   </div>
+                                  
+                              </div>
+                         </div>
+                    </div>
+               </div>
                <div class="modal fade" id="sendCrypto">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                          <div class="modal-content">
 
                               <!--modal-header-->
-                              <!-- <div class="modal-header modal-header-background text-center">
-                                   <div class="modal-title modal-title-header">
-                                        <h4>Wallet Address</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                   </div>
-                              </div> -->
-
                               <div class="modal-header modal-header-background text-center modal-title-header">
-                                   <h4 class="modal-title">Wallet Address</h4>
-                                   <a type="button" class="btn close" data-dismiss="modal">&times;</a>
-                                 </div>
+                                   <h4 class="modal-title  text-white">Wallet Address</h4>
+                                   <a type="button" class="btn close text-white" data-dismiss="modal">&times;</a>
+                              </div>
 
                               <!--modal-body-->
                               <div class="modal-body text-center">
@@ -384,6 +429,7 @@
                          </div>
                     </div>
                </div>
+
           </section>
           <br> <br>
           <section id="">
@@ -406,10 +452,14 @@
                               <p class="infoSmallText"><em>HASHTAGS</em></p>
                          </div>
                     </div>
-                    <div class="text-center">
-                         <a href="https://us06web.zoom.us/j/8408060186?pwd=bDFWcTJyd1k2ZmtFVmd4Z2VhNVVsdz09" target="_blank" class="btn live-btn shadow-none">Participate Live</a>
-                         <p class="infoSmallText">Use <b>Meeting ID: 840 806 0186 Passcode: made21</b> if required. </p>
-                    </div>
+                    
+               </div>
+          </section>
+          <section id="live" class="p-3">
+               <div class="text-center">
+                    <h3 class="text-white mb-3">Don't Miss A Single Moment</h3>
+                    <a href="https://us06web.zoom.us/j/8408060186?pwd=bDFWcTJyd1k2ZmtFVmd4Z2VhNVVsdz09" target="_blank" class="btn live-btn shadow-none mb-2 "> <span><i class="fa fa-eye eye" aria-hidden="true"></i></span> Participate Live</a>
+                    <p class="infoSmallText text-white">Use <b class="text-white">Meeting ID: 840 806 0186 Passcode: made21</b> if required. </p>
                </div>
           </section>
           <section id="wishes">
