@@ -181,6 +181,9 @@ li{
 .infoSmallText{
      font-size: 12px;
 }
+.live-title{
+     font-family: h1fonts;
+}
 
 /**Modal Style**/
 .modal-header-background{
