@@ -156,6 +156,7 @@ li{
      background-color: white;
      color: plum;
      padding: 10px;
+     position: relative;
 }
 .live-btn:hover{
     background-color: plum;
